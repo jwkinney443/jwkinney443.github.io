@@ -1,0 +1,128 @@
+/* Basic reset for styling consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  /* Switching to a playful font */
+}
+
+/* Body styling */
+body {
+  background-color: #ffebf0;
+  /* Light pink background, adding a vintage touch */
+  color: #6f1d1a;
+  /* Dark reddish-brown text for contrast */
+}
+
+/* Header styling */
+header {
+  background-color: #f0a500;
+  /* Bright yellow-orange */
+  color: #6f1d1a;
+  /* Dark reddish-brown text */
+  padding: 1em;
+  text-align: center;
+  border-bottom: 5px dotted #ff6f61;
+  /* Dotted border for a quirky touch */
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+  font-size: 2.5em;
+  /* Large and whimsical font size */
+}
+
+/* Navigation styling */
+nav {
+  margin: 1em 0;
+}
+
+nav a {
+  color: #ffffff;
+  /* White text */
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  /* Rounded corners */
+  margin: 0 0.5em;
+  background-color: #ff6f61;
+  /* Coral color */
+  font-weight: bold;
+  /* Bold text */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #ffb6c1;
+  /* Light pink */
+}
+
+/* Main section styling */
+main {
+  padding: 2em;
+  background-color: #c0f9f2;
+  /* Light mint green */
+  border: 5px dashed #ff6f61;
+  /* Dashed border around the main content */
+}
+
+/* Section styling */
+section {
+  background-color: #e1b5d6;
+  /* Light lavender pink */
+  padding: 2em;
+  margin-bottom: 2em;
+  /* Space between sections */
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  /* Extra large shadow for a dramatic effect */
+}
+
+section h2 {
+  margin-bottom: 1em;
+  color: #6f1d1a;
+  /* Dark reddish-brown text */
+  border-bottom: 3px dashed #ff6f61;
+  /* Dashed underline */
+  padding-bottom: 0.5em;
+}
+
+section p {
+  margin-bottom: 1em;
+  /* Space between paragraphs */
+  color: #6f1d1a;
+  /* Dark reddish-brown text */
+  font-size: 1.1em;
+  /* Slightly larger text for readability */
+}
+
+section ul {
+  margin: 1em 0;
+  /* Space around the list */
+  padding-left: 1.5em;
+  /* Indentation for list items */
+}
+
+section li {
+  margin-bottom: 0.5em;
+  /* Space between list items */
+  color: #6f1d1a;
+  /* Dark reddish-brown text */
+}
+
+section a {
+  color: #ff6f61;
+  /* Coral color for links */
+  text-decoration: underline;
+}
+
+section a:hover {
+  color: #7c4f72;
+  /* Light lavender pink */
+}
