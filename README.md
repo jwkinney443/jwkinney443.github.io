@@ -1,2 +1,2 @@
 # jwkinney443.github.io
-Portfolio website for Boston University CS506
+*ugly* Portfolio website for Boston University CS506
