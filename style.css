@@ -16,6 +16,8 @@ body {
   /* Light pink background, adding a vintage touch */
   color: #6f1d1a;
   /* Dark reddish-brown text for contrast */
+  cursor: url('8bitcursor.png'), auto;
+  /* 8-bit cursor */
 }
 
 /* Header styling */
